@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+/* App.css */
+.hover-blink:hover {
+  animation: blinkEffect 0.5s alternate infinite;
+}
+
+@keyframes blinkEffect {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 0.6;
+  }
+}
+
